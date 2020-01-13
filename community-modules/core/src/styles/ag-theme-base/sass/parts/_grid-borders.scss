@@ -1,11 +1,6 @@
 
 @mixin ag-theme-base-part-grid-borders {
 
-    // TODO refactor the code behind selections and borders so that we don't need these complicated selectors
-    //      while doing that, consider improving the look and feel. Borders and selections don't overlap well
-    //      because theyre' based on flat colours. If we rendered borders using semi-transparent overlays
-    //      whenthen they would combine over whatever background colour they're above
-
     .ag-cell {
         @include ag-theme-rtl(( border-right: $ag-cell-horizontal-border ));
         @include ag-theme-rtl(( border-right-width: 1px ));

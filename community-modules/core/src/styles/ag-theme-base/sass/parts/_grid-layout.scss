@@ -19,12 +19,6 @@
         @include ag-theme-rtl(( margin-left: $ag-row-group-indent-size ));
     }
 
-    .ag-cell .ag-icon {
-        // TODO structural styles
-        display: inline-block;
-        vertical-align: middle;
-    }
-
     .ag-cell {
         -webkit-font-smoothing: subpixel-antialiased;
     }

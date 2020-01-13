@@ -166,6 +166,14 @@
         background-color: $ag-checkbox-checked-color;
     }
 
+
+    .ag-icon-radio-button-off {
+        color: $ag-checkbox-color;
+    }
+    .ag-icon-radio-button-on {
+        color: $ag-checkbox-checked-color;
+    }
+
     .ag-toggle-button-icon {
         background-color: $ag-background-color;
         width: $ag-icon-size;

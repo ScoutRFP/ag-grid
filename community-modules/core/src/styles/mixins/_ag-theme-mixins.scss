@@ -27,6 +27,8 @@
 
 @mixin ag-textbox() {
 
+    @extend %ag-text-input !optional;
+
     @if $ag-customize-inputs {
         background: transparent;
         color: $ag-foreground-color;
@@ -174,10 +176,6 @@
 
   .ag-right-arrow:before {
       content: $ag-icon-left;
-  }
-
-  .ag-icon-radio-button-on {
-      color: $ag-checkbox-checked-color;
   }
 
   .ag-right-arrow:before {
