@@ -150,10 +150,6 @@
     
     .ag-filter-apply-panel-button {
         line-height: 1.5;
-        @if $ag-customize-buttons {
-            @include ag-regular-button($ag-button-color, $ag-button-background-color, $ag-button-text-transform);
-        }
-
         @include ag-theme-rtl((margin-left: $ag-grid-size * 2));
     }
 

@@ -79,4 +79,43 @@
     .ag-charts-format-sub-level-group-title-bar {
         padding: $ag-grid-size * 0.5 $ag-grid-size;
     }
+
+    %ag-text-input {
+
+        background: transparent;
+        color: $ag-foreground-color;
+        font-family: inherit;
+        font-size: inherit;
+        height: $ag-grid-size * 5;
+        padding-bottom: $ag-grid-size;
+
+        border-width: 0;
+
+        border-bottom: 2px solid $ag-border-color;
+
+        &:focus {
+            border-bottom: 2px solid $ag-mat-primary-color;
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $ag-disabled-foreground-color;
+        }
+
+        &:disabled {
+            border-bottom: 1px solid $ag-border-color;
+        }
+    }
+
+    .ag-filter-apply-panel-button {
+        appearance: none;
+        background-color: transparent;
+        border: 0;
+        color: $ag-mat-primary-color;
+        font-family: inherit;
+        font-size: inherit;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
 }

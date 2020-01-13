@@ -146,14 +146,7 @@ $ag-customize-buttons: false !default;
 
 $ag-input-disabled-background-color: null !default;
 $ag-input-border-color: null !default;
-$ag-customize-inputs: false !default;
-    // variables used when $ag-customize-inputs is true
-    // TODO replace with another method of customisation like %placeholder or class selector
-    $ag-focused-textbox-border-bottom: null !default;
-    $ag-input-border-width: null !default;
-    $ag-input-bottom-border: null !default;
-    $ag-input-bottom-border-disabled: null !default;
-    $ag-input-height: null !default;
+
 
 // 
 // Sizing
