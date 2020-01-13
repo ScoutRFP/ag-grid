@@ -80,7 +80,7 @@
 
     .ag-cell.ag-selection-fill-right,
     .ag-cell.ag-selection-fill-right.ag-cell-range-selected {
-        border-right: 1px dashed $ag-range-selection-border-color;
+        @include ag-theme-rtl((border-right: 1px dashed $ag-range-selection-border-color));
     }
 
     .ag-cell.ag-selection-fill-bottom,
@@ -90,7 +90,7 @@
 
     .ag-cell.ag-selection-fill-left,
     .ag-cell.ag-selection-fill-left.ag-cell-range-selected {
-        border-left: 1px dashed $ag-range-selection-border-color;
+        @include ag-theme-rtl((border-left: 1px dashed $ag-range-selection-border-color));
     }
 
     %ag-selection-handle {
